@@ -1,0 +1,135 @@
+body {
+    
+    align-items: center;
+	margin: 0;
+	padding: 0;
+    align-items: center;
+    /*background-color: aqua;*/
+    background-image: url('https://th.bing.com/th/id/R.53b5fcb87af938d9b85c54f155dd4dbb?rik=h5FLwY81VwL9gg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2fa%2ff%2f547374.jpg&ehk=pc19plsymaMVOKYGpIdz1P8Kn2LUKj9%2fG65KnXtu%2fEw%3d&risl=&pid=ImgRaw&r=0')
+}
+h1 {
+    align-items: center;
+    color: rgb(232, 170, 14);
+    font-size: 45px;
+}
+#x00, #x01, #x02, #x10, #x11,
+#x12, #x20, #x21, #x22 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+#main {
+    text-align: center;
+}
+header {
+	background-color: #00AEEA;
+	color: #eee;
+	text-align: center;
+	height: 60px;
+	padding-top: 5px;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+}
+h3{
+    color: #eee;
+    background-color:black ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p {
+	font-size: 54pt;
+	font-weight: bold;
+	font-family: Sans;
+	text-align: center;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    color: rgb(255, 255, 255);
+
+}
+
+a {
+	color: #00AEEA;
+	text-decoration: none;
+}
+a:hover {
+	color: #00AEEA;
+}
+a:visited {
+	color: #00AEEA;
+}
+
+
+#tab-tic-tac-toe {
+    margin: 0 auto; 
+    border-collapse: separate; 
+    border-spacing: 10px; 
+}
+  
+  #tab-tic-tac-toe td {
+    padding: 10px; 
+    background-color: #ffffff;
+    width: 60px;
+    height: 32px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+#tab-tic-tac-toe td:hover {
+	background: #ecd9d9;
+}
+
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid rgb(14, 13, 13);;
+    margin: auto;
+    border-radius: 20px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(24, 229, 9);
+    color: rgb(19, 18, 18);
+    font-size: 20px;
+    cursor: pointer;
+}
+#bnt-restart {
+	display: block;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	background: #00AEEA;
+	font-size: 1.5em;
+	color: #0c0c0c;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+    border: 1px solid rgb(14, 14, 14);;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+    background-color: rgb(24, 229, 9);
+}
+
+#but:hover,#bnt-restart:hover {
+	background: rgb(129, 45, 203);
+}
+

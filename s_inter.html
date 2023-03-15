@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta charset="UTF-8" />
+		<meta content="Clederson Cruz" name="author" />
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link type="text/css" rel="stylesheet" href="s_style.css" />
+		<script type="text/javascript" src="s_script.js"></script>
+		<title>SINGLE</title>
+	</head>
+	<body>
+       <div id="main">
+            <h1 style="font-family:algerian;">TIC TAC TOE</h1>
+              
+			  <h3>
+				Decide who will go first.
+			    <br>
+				Player is X, and the computer is O.
+				<br>
+			    Take turns placing your symbol on the grid.
+				<br>
+				The first player to get three in a row (horizontally, vertically, or diagonally) wins the game.
+				<br>
+				If all squares are filled and neither player has won, the game ends in a tie.
+					Play again if desired.
+				<br>
+				
+				</UL></h3>
+				
+				<input type="button" value="PLAYER 1 : COMPUTER" id="bnt-restart" onclick="restartBnt(this)"/>
+				<br><br>
+		<table id="tab-tic-tac-toe" cellspacing="25">
+			<tr><td id="00" onclick="clickedCell(this)"></td><td id="01" onclick="clickedCell(this)"></td><td id="02" onclick="clickedCell(this)"></td></tr>
+			<tr><td id="10" onclick="clickedCell(this)"></td><td id="11" onclick="clickedCell(this)"></td><td id="12" onclick="clickedCell(this)"></td></tr>
+			<tr><td id="20" onclick="clickedCell(this)"></td><td id="21" onclick="clickedCell(this)"></td><td id="22" onclick="clickedCell(this)"></td></tr>
+		</table>
+		
+        <br><br>
+		<button id="but" onclick="myfunc_2()">
+            RESET
+        </button>
+        <a href="index.html"><button id="but">HOME</button></a>
+        <br />
+			<p id="message"></p>
+		<br />
+        <br />
+        </div>
+	</body>
+</html>

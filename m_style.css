@@ -1,0 +1,50 @@
+
+    body{
+        align-items: center;
+        background-image: url('https://th.bing.com/th/id/R.53b5fcb87af938d9b85c54f155dd4dbb?rik=h5FLwY81VwL9gg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2fa%2ff%2f547374.jpg&ehk=pc19plsymaMVOKYGpIdz1P8Kn2LUKj9%2fG65KnXtu%2fEw%3d&risl=&pid=ImgRaw&r=0');
+    }
+    h1 {
+        color: rgb(232, 170, 14);
+        font-size: 45px;
+    }
+    h3{
+        color: #eee;
+       background-color:black ;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        background-color: white;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+    }
+   
+    #but {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 1px solid black;;
+        margin: auto;
+        border-radius: 4px;
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+        background-color: rgb(24, 229, 9);
+        color: black;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    #print {
+        font-family: sans;;
+        color:white ;;
+        font-size: 60px;
+    }
+    #main {
+        text-align: center;
+    }
